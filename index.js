@@ -18,7 +18,7 @@ return test;
 
 function increaseRankBy(n){
   var lis=document.getElementById("app").querySelectorAll("ul.ranked-list li");
-  for(let i=0;i<lis.length-1;i++){
+  for(let i=0;i<lis.length;i++){
     
   }
 }
