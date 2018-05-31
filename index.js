@@ -7,11 +7,11 @@ function nestedTarget(){
   return art;
 }
 
-function deepestChild(){
-  const lis = document.getElementById('grand-node').querySelectorAll('div');
-  var i=0;
-  for( i=0;i<lis.length;i++){
+function deepestChild() {
+  var lis=document.getElementById("grand-node").querySelectorAll("div");
+  var test;
+  for(let i=0;i<lis.length-1;i++) {
+    test=lis[i].querySelector("div");
   }
-  var test=lis[lis.length-1].querySelector("div");
-  return test;
+return test;
 }
