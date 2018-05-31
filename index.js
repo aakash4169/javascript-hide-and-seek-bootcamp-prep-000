@@ -6,3 +6,7 @@ function nestedTarget(){
   var art=document.querySelector('#nested div div div');
   return art;
 }
+
+function deepestChild(){
+  
+}
