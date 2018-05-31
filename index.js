@@ -17,5 +17,5 @@ return test;
 }
 
 function increaseRankBy(n){
-  
+  var lis=document.getElementById("app").querySelectorAll("");
 }
