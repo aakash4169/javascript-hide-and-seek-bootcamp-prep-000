@@ -8,5 +8,5 @@ function nestedTarget(){
 }
 
 function deepestChild(){
-  const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li')
+  const lis = document.getElementById('grand-node').querySelectorAll('ul.ranked-list li')
 }
